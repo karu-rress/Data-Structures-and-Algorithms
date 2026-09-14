@@ -27,7 +27,6 @@ Node *create_node(elem_t data) {
 
 void destroy_node(Node *node) {
     free(node);
-    node = NULL;
 }
 
 void append_node(Node **restrict head, Node *restrict node) {
